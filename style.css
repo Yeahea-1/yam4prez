@@ -1,33 +1,37 @@
 body {
-    background-color: #004AAD
-  }
-  
-  h1 {
-    color: rgb(12, 192, 223);
-  }
+  background-color: rgb(114, 187, 255);
+}
 
-  p {
-    color: rgb(12, 192, 223);
-    size: 24px;
-  }
+h1 {
+  color: rgb(50, 98, 255);
+}
 
-  a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-  }
-  a:visited {
-  color: red;
-  background-color: transparent;
-  text-decoration: none;
-  }
-  a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-  }
-  a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-  }
+h2 {
+color: rgb(67, 114, 255)
+}
+
+p {
+  color: rgb(38, 139, 255);
+}
+
+/* Link Colors */
+
+/* unvisited link */
+a:link {
+  color: rgb(0, 17, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(50, 139, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(60, 101, 236);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 89, 255);
+}

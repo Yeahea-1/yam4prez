@@ -15,7 +15,11 @@ p {
   font-size: 20px;
 }
 
-/* Link Colors */
+/* Link Styling */
+
+a {
+  font-size: 1.5em;
+}
 
 /* unvisited link */
 a:link {

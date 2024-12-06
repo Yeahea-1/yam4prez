@@ -44,7 +44,6 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: rgb(60, 101, 236);
-  text-decoration: none;
 }
 
 /* selected link */

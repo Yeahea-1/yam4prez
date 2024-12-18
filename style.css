@@ -26,10 +26,6 @@ img {
 
 /* Link Styling */
 
-a {
-  font-size: 1.5em;
-}
-
 /* unvisited link */
 a:link {
   color: rgb(0, 17, 255);

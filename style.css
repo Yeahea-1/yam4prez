@@ -1,4 +1,63 @@
 body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #00aeff;
+}
+
+header {
+  background: #0028ad;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header img {
+  max-width: 500px;
+  height: auto;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: #3720ff;
+}
+
+p {
+  margin: 1rem 0;
+  color: #0066ff;
+  size: 3em;
+}
+
+hr {
+  border: 0.25em solid #0089d8;
+}
+
+nav {
+  margin-top: 2rem;
+}
+
+nav a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #1800a1;
+  color: #51d6ff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: #1065d4;
+}
+
+
+
+
+/* body {
   background-color: rgb(114, 187, 255);
   font-family: 'Helvetica', sans-serif;
 }
@@ -32,23 +91,25 @@ img {
 /* Link Styling */
 
 /* unvisited link */
+
+/*
 a:link {
   color: rgb(0, 17, 255);
   text-decoration: none;
 }
 
-/* visited link */
+/* visited link *
 a:visited {
   color: rgb(50, 139, 255);
   text-decoration: none;
 }
 
-/* mouse over link */
+/* mouse over link *
 a:hover {
   color: rgb(60, 101, 236);
 }
 
-/* selected link */
+/* selected link *
 a:active {
   color: rgb(0, 89, 255);
   text-decoration: none;
